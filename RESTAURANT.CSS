@@ -1,0 +1,96 @@
+.bgimg{
+    background-image: url(https://b.zmtcdn.com/data/reviews_photos/b27/26c0f12aad31dae9b0b7ead809244b27_1630993386.jpg) ;
+    /* background-repeat: no-repeat; */
+    background-size: 900px ;
+    max-width:100%;
+    padding-bottom: 460px;
+  
+}
+h1{
+color: RED;
+font-family: Brush Script MT;
+background-color: yellow;
+}
+img{
+    height:199px;
+    width: 250px;
+    border-radius: 5px;;
+}
+#img2{
+    height:120px;
+    width: 150px;
+}
+.mytabs{
+    display:flex;
+    flex-wrap:wrap;
+    max-width: 900px;
+    margin:39px auto;
+    padding:20px;
+    border:10px solid black;
+
+}
+.mytabs input[type="radio"]{
+    display: none;
+}
+.mytabs label{
+    padding:25px;
+    background-color: rgb(146, 36, 36) ;
+    font-family: Stencil Std, fantasy;
+}
+.mytabs .tab{
+    width:100%;
+    padding: 20px;;
+    background-color: blanchedalmond;
+    order: 1;
+    display:none;
+}
+ h2{
+    font-size: 30px;
+    font-family: Brush Script MT;
+    
+}
+.mytabs input[type="radio"]:checked+label+.tab{
+    display:block;
+}
+.mytabs input[type="radio"]:checked+label{
+    background-color: blanchedalmond;
+}
+p{
+    font-family: Georgia;
+}
+table,th,td{
+    border:1px solid black;
+    width: 60%;
+}
+th{
+    background-color: aquamarine;
+}
+marquee{ color: beige;}
+form{
+    background-color: rgb(97, 150, 167);
+    padding: 15px;
+    border: 3px solid blue;
+}
+form input[type="submit"]{
+background-color: brown;
+}
+form input[type="reset"]{
+    background-color: brown;
+}
+.vertical{
+    border-left: 1px solid rgb(95, 90, 90);
+    height: 100px;
+    position: absolute;
+    left:50%;
+    padding: 13px;;
+}
+.vertical_1{
+    border-right: 1px solid rgb(95, 90, 90);
+    height: 100px;
+    position: absolute;
+    right: 50%;
+    padding: 13px;
+}
+.large{
+    border:1px solid grey;
+}
